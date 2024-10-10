@@ -1,0 +1,58 @@
+* {
+  text-align: center;
+}
+
+.todo-title {
+  color: orange;
+  font-size: 50px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.todo-data {
+  margin: 30px;
+  font-size: 20px;
+  background-color: rgb(182, 178, 178);
+  border-radius: 10px;
+}
+.todo-new {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  color: red;
+  margin-left: 5px;
+}
+
+.todo-data div {
+  line-height: 1.5;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
